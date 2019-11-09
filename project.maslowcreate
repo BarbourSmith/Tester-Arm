@@ -102,8 +102,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 833,
-                    "y": 172,
+                    "x": 836,
+                    "y": 90,
                     "uniqueID": 430336,
                     "ioValues": [
                         {
@@ -111,6 +111,14 @@
                             "ioValue": 3
                         }
                     ]
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 1014,
+                    "y": 198,
+                    "uniqueID": 596304,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -161,6 +169,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 430336
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 430336,
+                    "ap2ID": 596304
                 }
             ],
             "fileTypeVersion": 1
