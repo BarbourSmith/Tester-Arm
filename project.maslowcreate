@@ -10,6 +10,40 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 215,
+                    "y": 87,
+                    "uniqueID": 234545,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 69
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 227,
+                    "y": 165,
+                    "uniqueID": 122691,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 89
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 509,
+                    "y": 156,
+                    "uniqueID": 435393,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +51,20 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 234545,
+                    "ap2ID": 435393
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 122691,
+                    "ap2ID": 435393
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
